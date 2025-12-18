@@ -6,3 +6,13 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+// Estraggo solo i nomi usando map
+const names = people.map(function(person) {
+  return person.name;
+});
+
+// Stampo i nomi in console
+names.forEach(function(name) {
+  console.log(name);
+});
