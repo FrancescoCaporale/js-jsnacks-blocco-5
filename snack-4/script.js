@@ -7,3 +7,10 @@ const posts = [
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+
+// Creo un nuovo array con i nomi degli autori
+const authors = posts.map(function(post) {
+  return post.author;
+});
+
+console.log(authors);
